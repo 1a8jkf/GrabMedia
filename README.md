@@ -29,3 +29,9 @@ Deploy:
 Compatível com execução local ou em servidores via Docker
 
 Suporte a deploy em nuvem com Node.js/Docker
+
+![WhatsApp Image 2025-08-27 at 14 09 59](https://github.com/user-attachments/assets/789edcab-baf0-4aea-8443-2a1c12d3550a)
+
+![WhatsApp Image 2025-08-27 at 14 10 00](https://github.com/user-attachments/assets/404f0414-770d-4b22-b4f5-cbaa72432a33)
+
+![WhatsApp Image 2025-08-27 at 14 10 00 (1)](https://github.com/user-attachments/assets/c7733c5a-962a-4ea2-9558-2320e495fadd)
