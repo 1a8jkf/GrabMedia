@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnIect" href="https://fonts.gstatic.com">
+    <link rel="preconnIect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>GrabMedia - Baixe suas mídias favoritas</title>
+
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-center-content-div">
+            <a href="index.html"><img src="assets/main-logo.png" alt="main-logo" class="main-logo"></a>
+
+            <ul class="desktop-menu">
+                <a href="index.html" data-nav="home"><li>Home</li></a>
+                <a href="index.html#tutorial-section" data-nav="tutorial"><li>Tutorial</li></a>
+                <a href="index.html#about-us-section" data-nav="about"><li>Sobre</li></a>
+                <a href="javascript:void(0)" class="language-toggle" data-nav="language"><li>Idioma</li></a>
+            </ul>
+    
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="mobile-menu" id="mobile-menu">
+                <img src="assets/light-mode-icon.png" alt="mode-icon" id="theme-toggle" class="theme-toggle">
+                <ul class="mobile-menu-ul">
+                    <a href="index.html" data-nav="home"><li>Home</li></a>
+                    <a href="index.html#tutorial-section" data-nav="tutorial"><li>Tutorial</li></a>
+                    <a href="index.html#about-us-section" data-nav="about"><li>Sobre</li></a>
+                    <a href="javascript:void(0)" class="language-toggle" data-nav="language"><li>Idioma</li></a>
+                    <a href="javascript:void(0)" class="contact-toggle" data-button="contact"><li>Contato</li></a>
+                </ul>
+            </div>
+
+            <div class="language-container hidden" id="language-container">
+                <img src="assets/close-icon.png" alt="close-icon" id="close-languages">
+                <ul>
+                    <li><a href="#" data-lang="pt">Português</a></li>
+                    <li><a href="#" data-lang="en">English</a></li>
+                    <li><a href="#" data-lang="es">Español</a></li>
+                    <li><a href="#" data-lang="fr">Français</a></li>
+                </ul>
+            </div>
+            
+            <div class="contact-container" id="contact-container">
+                <img src="assets/close-icon.png" alt="close-icon" class="close-contact" id="close-contact">
+                <div class="contact-container-content-div">
+                    <h1 data-title="contact-title">Entre em contato conosco!</h1>
+                    <div class="contact-container-contact-div">
+                        <p><b>Email:</b> <a href="mailto:suporte@empresa.com">grabmediame@gmail.com</a></p>
+                    </div>
+                    <p data-text="contact-text">Entre em contato conosco e nos forneça seus feedbacks! Apreciamos suas sugestões e estamos sempre prontos para melhorar.</p>
+                </div>
+            </div>
+    
+            <div class="contact-div">
+                <img src="assets/light-mode-icon.png" alt="mode-icon" id="theme-toggle" class="theme-toggle">
+                <a href="javascript:void(0)" class="main-header-button contact-toggle" data-button="contact">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-section-privacy">
+        <div class="main-section-privacy-text-div">
+            <h1 data-privacy="privacy-title">Política de Relacionamento e Privacidade da GrabMedia</h1>
+
+            <b data-privacy="privacy-step-title1">1. Introdução</b>
+            <p data-privacy="privacy-step-text1">A GrabMedia valoriza a privacidade e segurança de seus usuários. Esta Política de Relacionamento e Privacidade explica como coletamos, utilizamos e protegemos suas informações pessoais ao utilizar nosso site e serviços. Ao acessar ou usar o site GrabMedia, você concorda com os termos desta política. Caso não concorde, solicitamos que não use nossos serviços.</p>
+            <br>
+            <b data-privacy="privacy-step-title2">2. Coleta de Informações</b>
+            <p data-privacy="privacy-step-text2">Ao acessar nosso site e utilizar nossos serviços, podemos coletar informações pessoais, incluindo, mas não limitadas a:</p>
+            <p data-privacy="privacy-step-text2.1">&nbsp;&nbsp;• Nome e endereço de e-mail, quando você entra em contato conosco ou se inscreve para receber atualizações.</p>
+            <p data-privacy="privacy-step-text2.2">&nbsp;&nbsp;• Dados de navegação, como IP, tipo de navegador, página de origem e ações realizadas no site.</p>
+            <p data-privacy="privacy-step-text2.3">&nbsp;&nbsp;• Links ou conteúdos compartilhados com o site, como vídeos ou músicas de plataformas externas.</p>
+            <br>
+            <b data-privacy="privacy-step-title3">3. Uso das Informações</b>
+            <p data-privacy="privacy-step-text3">As informações coletadas são utilizadas para:</p>
+            <p data-privacy="privacy-step-text3.1">&nbsp;&nbsp;• Processar sua solicitação e fornecer os serviços que você solicita.</p>
+            <p data-privacy="privacy-step-text3.2">&nbsp;&nbsp;• Melhorar a experiência do usuário, oferecendo conteúdos relevantes.</p>
+            <p data-privacy="privacy-step-text3.3">&nbsp;&nbsp;• Manter contato, responder a perguntas e atender solicitações feitas através de nosso e-mail de suporte (grabmediame@gmail.com).</p>
+            <p data-privacy="privacy-step-text3.4">&nbsp;&nbsp;• Analisar o desempenho do site e realizar melhorias contínuas.</p>
+            <br>
+            <b data-privacy="privacy-step-title4">4. Proteção de Dados Pessoais</b>
+            <p data-privacy="privacy-step-text4">A GrabMedia adota medidas de segurança técnicas e organizacionais para proteger suas informações pessoais. No entanto, nenhuma transmissão de dados pela internet é completamente segura. Embora nos esforcemos para proteger suas informações, não podemos garantir a segurança total dos dados durante a transmissão ou armazenamento.</p>
+            <br>
+            <b data-privacy="privacy-step-title5">5. Compartilhamento de Informações</b>
+            <p data-privacy="privacy-step-text5">A GrabMedia não compartilha suas informações pessoais com terceiros, exceto quando necessário para:</p>
+            <p data-privacy="privacy-step-text5.1">&nbsp;&nbsp;• Cumprir com obrigações legais.</p>
+            <p data-privacy="privacy-step-text5.2">&nbsp;&nbsp;• Proteger nossos direitos ou propriedade.</p>
+            <p data-privacy="privacy-step-text5.3">&nbsp;&nbsp;• Realizar serviços de terceiros relacionados ao nosso funcionamento (como processamento de pagamentos, se aplicável).</p>
+            <br>
+            <b data-privacy="privacy-step-title6">6. Cookies e Tecnologias de Rastreamento</b>
+            <p data-privacy="privacy-step-text6">Utilizamos cookies e tecnologias semelhantes para melhorar a experiência de navegação no site, personalizar conteúdo, analisar tráfego e fornecer funcionalidades adicionais. Você pode ajustar as configurações de cookies diretamente no seu navegador, caso deseje desativá-los. No entanto, isso pode afetar a funcionalidade do site.</p>
+            <br>
+            <b data-privacy="privacy-step-title7">7. Seus Direitos</b>
+            <p data-privacy="privacy-step-text7">Você tem o direito de:</p>
+            <p data-privacy="privacy-step-text7.1">&nbsp;&nbsp;• Solicitar informações sobre os dados que mantemos sobre você.</p>
+            <p data-privacy="privacy-step-text7.2">&nbsp;&nbsp;• Corrigir qualquer informação incorreta ou desatualizada.</p>
+            <p data-privacy="privacy-step-text7.3">&nbsp;&nbsp;• Excluir suas informações pessoais, salvo quando formos obrigados por lei a mantê-las.</p>
+            <p data-privacy="privacy-step-text7.4">&nbsp;&nbsp;• Para exercer esses direitos, entre em contato conosco através do e-mail grabmediame@gmail.com.</p>
+            <br>
+            <b data-privacy="privacy-step-title8">8. Links para Outros Sites</b>
+            <p data-privacy="privacy-step-text8">Nosso site pode conter links para sites de terceiros. Não somos responsáveis pelas práticas de privacidade ou conteúdo desses sites. Recomendamos que revise as políticas de privacidade de qualquer site de terceiros antes de fornecer suas informações pessoais.</p>
+            <br>
+            <b data-privacy="privacy-step-title9">9. Alterações nesta Política</b>
+            <p data-privacy="privacy-step-text9">Podemos atualizar esta Política de Privacidade periodicamente. As alterações serão publicadas nesta página com a data de revisão. Recomendamos que você revise regularmente esta política para se manter informado sobre como protegemos suas informações.</p>
+            <br>
+            <b data-privacy="privacy-step-title10">10. Termos de Uso</b>
+            <p data-privacy="privacy-step-text10">O uso do site GrabMedia está sujeito aos nossos [Termos de Uso], que detalham as condições de uso dos nossos serviços. Ao utilizar nosso site, você concorda em respeitar esses termos.</p>
+            <br>
+            <b data-privacy="privacy-step-title11">11. Contato</b>
+            <p data-privacy="privacy-step-text11">Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade ou sobre como suas informações são tratadas, entre em contato conosco:</p>
+            <br>
+            <a href="">grabmediame@gmail.com</a>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="main-footer-content-center-div">
+            <div class="main-footer-content-copy-div">
+                <div class="main-footer-content-copy-item-div">
+                    <h1>GrabMedia</h1>
+                    <p data-copy="copy">© GrabMedia 2024. Todos os direitos reservados.</p>
+                </div>
+            </div>
+
+            <div class="main-footer-content-lists-div">
+                <div class="main-footer-content-lists-item-div" style="display: none;">
+                    <h4>Links úteis</h4>
+                    <ul>
+                        <a href=""><li>YouTube</li></a>
+                        <a href=""><li>Instagram</li></a>
+                        <a href=""><li>Facebook</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/translations.js"></script>
+</body>
+</html>

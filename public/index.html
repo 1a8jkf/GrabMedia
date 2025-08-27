@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="GrabMedia - Baixe vídeos e músicas de suas plataformas favoritas de forma rápida e segura. Acesse conteúdo]s de YouTube, Instagram, TikTok e muito mais.">
+    <meta name="description" lang="en" content="GrabMedia - Download videos and music from your favorite platforms quickly and securely. Access content from YouTube, Instagram, TikTok, and much more.">
+
+    <meta name="keywords" content="baixar vídeos, baixar músicas, YouTube, Instagram, TikTok, Vimeo, download rápido, converter, plataformas de mídia">
+    <meta name="keywords" lang="en" content="download videos, download music, YouTube, Instagram, TikTok, Vimeo, fast download, convert, media platforms">
+    
+    <meta name="author" content="GrabMedia">
+
+    <meta property="og:title" content="GrabMedia - Baixe vídeos e músicas de suas plataformas favoritas">
+    <meta property="og:title" lang="en" content="GrabMedia - Download videos and music from your favorite platforms">
+    
+    <meta property="og:description" content="Baixe vídeos e músicas com facilidade. Aproveite a simplicidade e segurança ao baixar conteúdos de YouTube, TikTok, Instagram e muito mais!">
+    <meta property="og:description" lang="en" content="Download videos and music with ease. Enjoy simplicity and security when downloading content from YouTube, TikTok, Instagram, and much more!">
+    
+    <meta property="og:image" content="https://www.grabmedia.com.br/assets/main-logo.png">
+    <meta property="og:url" content="https://www.grabmedia.com.br">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GrabMedia - Baixe vídeos e músicas">
+    <meta name="twitter:title" lang="en" content="GrabMedia - Download videos and music">
+    
+    <meta name="twitter:description" content="Baixe vídeos e músicas de várias plataformas como YouTube e Instagram de maneira simples e rápida!">
+    <meta name="twitter:description" lang="en" content="Download videos and music from platforms like YouTube and Instagram quickly and easily!">
+    
+    <meta name="twitter:image" content="https://www.grabmedia.com.br/assets/main-logo.png">
+    
+    <meta name="robots" content="index, follow">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>GrabMedia - Baixe suas mídias favoritas</title>
+    <title lang="en">GrabMedia - Download your favorite media</title>
+
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-center-content-div">
+            <img src="assets/main-logo.png" alt="main-logo" class="main-logo">
+
+            <ul class="desktop-menu">
+                <a href="#main-section" data-nav="home"><li>Home</li></a>
+                <a href="#tutorial-section" data-nav="tutorial"><li>Tutorial</li></a>
+                <a href="#about-us-section" data-nav="about"><li>Sobre</li></a>
+                <a href="javascript:void(0)" class="language-toggle" data-nav="language"><li>Idioma</li></a>
+            </ul>
+    
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="mobile-menu" id="mobile-menu">
+                <img src="assets/light-mode-icon.png" alt="mode-icon" id="theme-toggle" class="theme-toggle">
+                <ul class="mobile-menu-ul">
+                    <a href="#main-section" data-nav="home"><li>Home</li></a>
+                    <a href="#tutorial-section" data-nav="tutorial"><li>Tutorial</li></a>
+                    <a href="#about-us-section" data-nav="about"><li>Sobre</li></a>
+                    <a href="javascript:void(0)" class="language-toggle" data-nav="language"><li>Idioma</li></a>
+                    <a href="javascript:void(0)" class="contact-toggle" data-button="contact"><li>Contato</li></a>
+                </ul>
+            </div>
+
+            <div class="language-container hidden" id="language-container">
+                <img src="assets/close-icon.png" alt="close-icon" id="close-languages">
+                <ul>
+                    <li><a href="#" data-lang="pt">Português</a></li>
+                    <li><a href="#" data-lang="en">English</a></li>
+                    <li><a href="#" data-lang="es">Español</a></li>
+                    <li><a href="#" data-lang="fr">Français</a></li>
+                </ul>
+            </div>
+            
+            <div class="contact-container" id="contact-container">
+                <img src="assets/close-icon.png" alt="close-icon" class="close-contact" id="close-contact">
+                <div class="contact-container-content-div">
+                    <h1 data-title="contact-title">Entre em contato conosco!</h1>
+                    <div class="contact-container-contact-div">
+                        <p><b>Email:</b> <a href="mailto:grabmediame@gmail.com">grabmediame@gmail.com</a></p>
+                    </div>
+                    <p data-text="contact-text">Entre em contato conosco e nos forneça seus feedbacks! Apreciamos suas sugestões e estamos sempre prontos para melhorar.</p>
+                </div>
+            </div>
+    
+            <div class="contact-div">
+                <img src="assets/light-mode-icon.png" alt="mode-icon" id="theme-toggle" class="theme-toggle">
+                <a href="javascript:void(0)" class="main-header-button contact-toggle" data-button="contact">Contato</a>
+            </div>
+        </div>
+    </header>
+    <section class="main-section" id="main-section">
+        <div class="main-section-center-content-div">
+            <div class="main-section-control-panel-div">
+                <div class="main-section-control-panel-form-div">
+                    <h1>GrabMedia</h1>
+
+                    <form id="downloadForm">
+                        <div class="form-div">
+                            <select name="platform" id="platform" data-select="platform">
+                                <option value="" selected hidden data-select="platform-inform">Selecione a plataforma (YouTube, Instagram, etc.)</option>
+                                <option value="YouTube">YouTube</option>
+                                <option value="Instagram" disabled data-select="platform-Instagram">Instagram (Disponível em breve)</option>
+                                <option value="X(Twitter)" disabled data-select="platform-X">X(Twitter) (Disponível em breve)</option>
+                                <option value="Facebook" disabled data-select="platform-Facebook">Facebook (Disponível em breve)</option>
+                                <option value="Pinterest" disabled data-select="platform-Pinterest">Pinterest (Disponível em breve)</option>
+                                <option value="TikTok" disabled data-select="platform-Tiktok">TikTok (Disponível em breve)</option>
+                                <option value="Vimeo" disabled data-select="platform-Vimeo">Vimeo (Disponível em breve)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-div">
+                            <input type="text" placeholder="Cole o link aqui para começar!" data-placeholder="paste-link" id="video-url" name="video-url" required>
+                        </div>
+
+                        <button type="submit" class="main-form-post-button" id="downloadButton" data-button="search">Pesquisar</button>
+                    </form>
+
+                    <div class="main-section-control-panel-title-div">
+                        <p data-description="description">
+                            Baixe seus vídeos e músicas favoritos de forma rápida, simples e segura.
+                            Aqui você encontra uma solução prática para capturar mídias das plataformas mais populares, tudo em apenas alguns cliques. Explore o mundo do entretenimento ao seu alcance, sem complicações e com total confiança!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-section-presentation-panel-div">
+                <div class="main-section-presentation-panel-media-div" id="videoFrame">
+                    <div class="main-section-presentation-media-frame-div">
+                        <div class="loading-div"></div>
+                        <iframe 
+                            src="" 
+                            frameborder="0" 
+                            class="video" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            style="display: none;">
+                        </iframe>
+                    </div>
+            
+                    <h1 class="media-title"></h1>
+            
+                    <div class="main-section-presentation-media-type-div">
+                        <div class="main-section-presentation-media-type-song-div">
+
+                        </div>
+            
+                        <div class="main-section-presentation-media-type-video-div">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tutorial-section" id="tutorial-section">
+        <div class="tutorial-section-center-div">
+            <div class="tutorial-section-gif-div">
+                <img src="assets/animated-tutorial.gif" alt="main-gif">
+            </div>
+
+            <div class="tutorial-section-text-div">
+                <h1 data-title="tutorial-header">Dúvidas? Veja Como Funciona</h1>
+                <p data-step="step-1"><b>Passo 1:</b> Escolha a plataforma de onde deseja baixar o vídeo ou música.</p>
+                <p data-step="step-2"><b>Passo 2:</b> Cole o link do conteúdo no campo de entrada logo abaixo e clique em "Pesquisar".</p>
+                <p data-step="step-3"><b>Passo 3:</b> Selecione o formato e a qualidade do arquivo e clique em "Baixar".</p>
+
+                <p data-step="done"><b>Pronto!</b> Agora, é só aguardar o download do arquivo e aproveitar o conteúdo de forma rápida e prática! Nossa plataforma foi desenvolvida para oferecer downloads eficientes, com várias opções de formatos e qualidades, tudo em um só lugar. Com uma interface simples e fácil de usar, você pode baixar seus vídeos e músicas favoritos de diversas plataformas sem complicação. Volte sempre para garantir o melhor acesso a conteúdo de qualidade, com agilidade e sem custos!</p>
+                
+            </div>            
+        </div>
+    </section>
+
+    <section class="about-us-section" id="about-us-section">
+        <div class="about-section-center-div">
+            <div class="about-section-center-text-div">
+                <h1 data-title="about-header">Sobre nós</h1>
+                <p data-description="about-description">
+                    Na GrabMedia, sua confiança é nossa prioridade. Respeitamos rigorosamente as Políticas de Privacidade. E nossa infraestrutura garante que cada download seja seguro e livre de riscos. Você é o único responsável por quaisquer violações de direitos autorais ou uso indevido deste site.
+                    Para saber mais, visite nossa <a href="privacy.html">[Política de Privacidade]</a> e <a href="terms.html">[Termos de Uso]</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="main-footer-content-center-div">
+            <div class="main-footer-content-copy-div">
+                <div class="main-footer-content-copy-item-div">
+                    <h1>GrabMedia</h1>
+                    <p data-copy="copy">© GrabMedia 2024. Todos os direitos reservados.</p>
+                </div>
+            </div>
+
+            <div class="main-footer-content-lists-div">
+                <div class="main-footer-content-lists-item-div" style="display: none;">
+                    <h4>Links úteis</h4>
+                    <ul>
+                        <a href=""><li>YouTube</li></a>
+                        <a href=""><li>Instagram</li></a>
+                        <a href=""><li>Facebook</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/translations.js"></script>
+</body>
+</html>

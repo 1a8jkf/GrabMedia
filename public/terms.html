@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnIect" href="https://fonts.gstatic.com">
+    <link rel="preconnIect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>GrabMedia - Baixe suas mídias favoritas</title>
+
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-center-content-div">
+            <a href="index.html"><img src="assets/main-logo.png" alt="main-logo" class="main-logo"></a>
+
+            <ul class="desktop-menu">
+                <a href="index.html" data-nav="home"><li>Home</li></a>
+                <a href="index.html#tutorial-section" data-nav="tutorial"><li>Tutorial</li></a>
+                <a href="index.html#about-us-section" data-nav="about"><li>Sobre</li></a>
+                <a href="javascript:void(0)" class="language-toggle" data-nav="language"><li>Idioma</li></a>
+            </ul>
+    
+            <div class="hamburger-menu" id="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    
+            <div class="mobile-menu" id="mobile-menu">
+                <img src="assets/light-mode-icon.png" alt="mode-icon" id="theme-toggle" class="theme-toggle">
+                <ul class="mobile-menu-ul">
+                    <a href="index.html" data-nav="home"><li>Home</li></a>
+                    <a href="index.html#tutorial-section" data-nav="tutorial"><li>Tutorial</li></a>
+                    <a href="index.html#about-us-section" data-nav="about"><li>Sobre</li></a>
+                    <a href="javascript:void(0)" class="language-toggle" data-nav="language"><li>Idioma</li></a>
+                    <a href="javascript:void(0)" class="contact-toggle" data-button="contact"><li>Contato</li></a>
+                </ul>
+            </div>
+
+            <div class="language-container hidden" id="language-container">
+                <img src="assets/close-icon.png" alt="close-icon" id="close-languages">
+                <ul>
+                    <li><a href="#" data-lang="pt">Português</a></li>
+                    <li><a href="#" data-lang="en">English</a></li>
+                    <li><a href="#" data-lang="es">Español</a></li>
+                    <li><a href="#" data-lang="fr">Français</a></li>
+                </ul>
+            </div>
+            
+            <div class="contact-container" id="contact-container">
+                <img src="assets/close-icon.png" alt="close-icon" class="close-contact" id="close-contact">
+                <div class="contact-container-content-div">
+                    <h1 data-title="contact-title">Entre em contato conosco!</h1>
+                    <div class="contact-container-contact-div">
+                        <p><b>Email:</b> <a href="mailto:suporte@empresa.com">grabmediame@gmail.com</a></p>
+                    </div>
+                    <p data-text="contact-text">Entre em contato conosco e nos forneça seus feedbacks! Apreciamos suas sugestões e estamos sempre prontos para melhorar.</p>
+                </div>
+            </div>
+    
+            <div class="contact-div">
+                <img src="assets/light-mode-icon.png" alt="mode-icon" id="theme-toggle" class="theme-toggle">
+                <a href="javascript:void(0)" class="main-header-button contact-toggle" data-button="contact">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-section-terms">
+        <div class="main-section-terms-text-div">
+            <h1 data-terms="terms-title">Termos de Uso da GrabMedia</h1>
+
+            <b data-terms="terms-step-title1">1. Introdução</b>
+            <p data-terms="terms-step-text1">Bem-vindo à GrabMedia! Ao acessar e utilizar nosso site, você concorda em cumprir os termos e condições descritos nesta página. Se você não concordar com qualquer parte destes termos, pedimos que não utilize nossos serviços. Esses Termos de Uso regulam o acesso ao nosso site e o uso de nossos serviços, incluindo o download de mídias, conteúdos e outras funcionalidades disponíveis.</p>
+            <br>
+            <b data-terms="terms-step-title2">2. Uso do Serviço</b>
+            <p data-terms="terms-step-text2">A GrabMedia oferece uma plataforma que permite aos usuários baixar vídeos, músicas e outros conteúdos de plataformas externas, de acordo com a sua escolha e necessidade. Você é o único responsável por garantir que o uso de nosso serviço seja legal e esteja em conformidade com as leis locais e internacionais de direitos autorais e propriedade intelectual.</p>
+            <br>
+            <b data-terms="terms-step-title3">3. Responsabilidade do Usuário</b>
+            <p data-terms="terms-step-text3">Ao utilizar nossos serviços, você concorda que:</p>
+            <b data-terms="terms-step-text3.1">Uso pessoal:</b>
+            <p data-terms="terms-step-text3.2">Os downloads realizados em nossa plataforma são destinados exclusivamente para uso pessoal e não comercial. Qualquer uso do conteúdo para fins comerciais, sem permissão expressa, é proibido.</p>
+            <b data-terms="terms-step-text3.3">Conformidade com a lei:</b>
+            <p data-terms="terms-step-text3.4">Você é responsável por assegurar que o conteúdo baixado através de nosso site não infrinja direitos autorais ou outras leis de propriedade intelectual. A GrabMedia não se responsabiliza por qualquer uso ilegal ou impróprio de conteúdo baixado.</p>
+            <b data-terms="terms-step-text3.5">Respeito aos direitos autorais:</b>
+            <p data-terms="terms-step-text3.6">A GrabMedia não incentiva nem endossa a violação de direitos autorais. Ao usar nossos serviços, você concorda em respeitar os direitos dos criadores de conteúdo e não usar o site para baixar conteúdo sem a devida autorização.</p>
+            <br>
+            <b data-terms="terms-step-title4">4. Isenção de Responsabilidade</b>
+            <p data-terms="terms-step-text4.1">A GrabMedia não se responsabiliza por qualquer uso indevido dos serviços oferecidos em nosso site, incluindo:</p>
+            <b data-terms="terms-step-text4.2">Violação de direitos autorais:</b>
+            <p data-terms="terms-step-text4.3">Não somos responsáveis por qualquer violação de direitos autorais resultante do uso do nosso serviço para baixar conteúdos de plataformas de terceiros.</p>
+            <b data-terms="terms-step-text4.4">Interrupção do serviço:</b>
+            <p data-terms="terms-step-text4.5">O site pode ser temporariamente interrompido para manutenção ou por motivos imprevistos. Não nos responsabilizamos por qualquer falha ou interrupção no serviço, nem por qualquer dano resultante dessas interrupções.</p>
+            <br>
+            <b data-terms="terms-step-title5">5. Alterações no Serviço</b>
+            <p data-terms="terms-step-text5">A GrabMedia reserva-se o direito de modificar ou descontinuar qualquer parte do serviço a qualquer momento, com ou sem aviso prévio. Não nos responsabilizamos por alterações, suspensões ou descontinuações do serviço.</p>
+            <br>
+            <b data-terms="terms-step-title6">6. Propriedade Intelectual</b>
+            <p data-terms="terms-step-text6">Todo o conteúdo disponível no site GrabMedia, incluindo textos, gráficos, logos, ícones e imagens, é de propriedade da GrabMedia ou de seus licenciadores, e está protegido por leis de direitos autorais e propriedade intelectual. Você concorda em não reproduzir, modificar, distribuir ou criar trabalhos derivados com base nesse conteúdo sem a permissão expressa da GrabMedia.</p>
+            <br>
+            <b data-terms="terms-step-title7">7. Links de Terceiros</b>
+            <p data-terms="terms-step-text7">Nosso site pode conter links para sites de terceiros, que são fornecidos para sua conveniência. Não nos responsabilizamos pelo conteúdo ou pelas práticas de privacidade desses sites. Ao clicar nesses links, você estará saindo do nosso site e deve revisar a política de privacidade e os termos de uso dos sites de terceiros.</p>
+            <br>
+            <b data-terms="terms-step-title8">8. Modificações dos Termos de Uso</b>
+            <p data-terms="terms-step-text8">A GrabMedia pode atualizar ou modificar esses Termos de Uso a qualquer momento. As alterações serão publicadas nesta página com a data de revisão. Recomendamos que você revise periodicamente os Termos de Uso para se manter atualizado sobre as condições aplicáveis ao uso do nosso serviço.</p>
+            <br>
+            <b data-terms="terms-step-title9">9. Legislação Aplicável</b>
+            <p data-terms="terms-step-text9">Esses Termos de Uso são regidos pelas leis do país em que a GrabMedia está registrada. Quaisquer disputas decorrentes desses termos serão resolvidas de acordo com a legislação local.</p>
+            <br>
+            <b data-terms="terms-step-title10">10. Contato</b>
+            <p data-terms="terms-step-text10">Se você tiver qualquer dúvida sobre estes Termos de Uso ou sobre o funcionamento do serviço, entre em contato conosco através do E-mail:</p>
+            <br>
+            <a href="">grabmediame@gmail.com</a>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="main-footer-content-center-div">
+            <div class="main-footer-content-copy-div">
+                <div class="main-footer-content-copy-item-div">
+                    <h1>GrabMedia</h1>
+                    <p data-copy="copy">© GrabMedia 2024. Todos os direitos reservados.</p>
+                </div>
+            </div>
+
+            <div class="main-footer-content-lists-div">
+                <div class="main-footer-content-lists-item-div" style="display: none;">
+                    <h4>Links úteis</h4>
+                    <ul>
+                        <a href=""><li>YouTube</li></a>
+                        <a href=""><li>Instagram</li></a>
+                        <a href=""><li>Facebook</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/translations.js"></script>
+</body>
+</html>
