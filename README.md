@@ -1,32 +1,31 @@
-# GrabMedia
-Aplicação web para download de vídeos e áudios do YouTube, desenvolvida com foco em desempenho, modularidade e simplicidade de uso.
+Webapp desenvolvido no final de 2024 e início de 2025 com o propósito de oferecer uma solução simples, rápida e acessível para o download de vídeos e áudios do YouTube. O projeto nasceu como uma forma de estudar integração entre front-end, back-end e containerização, evoluindo para uma aplicação funcional e escalável.
 
-🔧 Tecnologias utilizadas:
+Tecnologias utilizadas:
 
-Frontend: HTML5, CSS3, JavaScript (UI responsiva e intuitiva)
+Frontend: HTML5, CSS3, JavaScript (interface responsiva e minimalista)
 
-Backend: Node.js + Express (roteamento e processamento das requisições)
+Backend: Node.js + Express (API para processamento das requisições)
 
-Containerização: Docker e Docker Compose (ambiente isolado e padronizado)
+Containerização: Docker e Docker Compose (padronização do ambiente de execução)
 
-Integração: Biblioteca ytdl-core para extração de streams do YouTube
+Integração: ytdl-core para captura de streams do YouTube
 
-Banco de dados (opcional): Oracle Database / SQLite para registro de histórico de downloads
+Banco de dados (opcional): Oracle Database / SQLite para histórico de downloads
 
-Arquitetura: Separação em módulos de serviços (microserviços leves), facilitando escalabilidade e manutenção
+Arquitetura: Estrutura modular em serviços independentes, facilitando manutenção e futuras expansões
 
 Principais recursos:
 
-Download de vídeos em múltiplas resoluções (360p, 720p, 1080p…)
+Download de vídeos em diferentes resoluções (360p, 720p, 1080p…)
 
-Extração de áudio em MP3 de alta qualidade
+Conversão de vídeos em áudio (MP3 de alta qualidade)
 
-Suporte a filas de download simultâneas
+Suporte a múltiplos downloads simultâneos
 
-Estrutura extensível para integração futura com outras plataformas (Vimeo, Instagram, TikTok, etc.)
+Estrutura preparada para futura integração com outras plataformas (Instagram, TikTok, Vimeo, etc.)
 
 Deploy:
 
 Compatível com execução local ou em servidores via Docker
 
-Pode ser hospedado em qualquer serviço cloud com suporte a Node.js/Docker
+Suporte a deploy em nuvem com Node.js/Docker
